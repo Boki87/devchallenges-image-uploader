@@ -1,0 +1,82 @@
+.success_div {
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin: 10px;
+    padding: 20px 30px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.success_div > .text1 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #4F4F4F;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.check {
+    background: #219653;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_container {
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.img_container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.input_container {
+    height:35px;
+    width:100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 40px;
+}
+
+.input_container > input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 0.6rem;
+    color: #4F4F4F;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    outline: none;
+}
+
+.input_container > button {
+    position: absolute;
+    right:0;
+    width: 75px;
+    height:30px;
+    margin-top: 2px;
+    margin-right: 2px;
+    border-radius: 8px;
+    color: #fff;
+    background: #2F80ED;
+    font-size: 0.6rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+
